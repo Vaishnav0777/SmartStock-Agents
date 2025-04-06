@@ -50,7 +50,7 @@ const InventoryTable: React.FC<InventoryTableProps> = ({
                   <Badge variant="outline" className="w-16">{product.warehouseStock}</Badge>
                 )}
               </TableCell>
-              <TableCell className="text-right font-mono">₹{product.price.toFixed(2)}</TableCell>
+              <TableCell className="text-right font-mono">${product.price.toFixed(2)}</TableCell>
             </TableRow>
           ))}
         </TableBody>
